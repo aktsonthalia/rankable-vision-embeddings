@@ -1,6 +1,10 @@
 using_csv: 0
 attribute: age
 dataset: utkface
+task: regression
+downstream_model: linear
+random_seed: 0
+experiment_type: training
 logging:
   entity: mode-connect
   gdrive_storage_folder: null
