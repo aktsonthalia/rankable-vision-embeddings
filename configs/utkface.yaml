@@ -1,0 +1,36 @@
+using_csv: 0
+attribute: age
+dataset: utkface
+logging:
+  entity: mode-connect
+  gdrive_storage_folder: null
+  project: star-domain
+  tags: []
+  use_tb: false
+  use_wandb: false
+  wandb:
+    entity: mode-connect
+    netrc_path: ~/.netrc
+    project: star-domain
+    tags: []
+model: openai_clip_vit_b_16
+params:
+  random_seed: 0
+finetuning:
+  epochs: 1
+result_keys_to_log:
+  - zero_shot.best_prompt.prompt
+  - zero_shot.best_prompt.pairwise_comparison_accuracy
+  - zero_shot.best_prompt.spearman
+  - zero_shot.best_prompt.tau
+  - regression.frozen.train.pairwise_comparison_accuracy
+  - regression.frozen.train.spearman
+  - regression.frozen.train.tau
+  - regression.frozen.train.mae
+  - regression.frozen.test.pairwise_comparison_accuracy
+  - regression.frozen.test.spearman
+  - regression.frozen.test.tau
+  - regression.frozen.test.mae
+
+
+  
