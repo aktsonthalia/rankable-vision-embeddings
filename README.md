@@ -1,16 +1,42 @@
-Code for the pre-print [On the rankability of visual embeddings](https://arxiv.org/abs/2507.03683). 
+Codebase for the preprint: [**On the Rankability of Visual Embeddings**](https://arxiv.org/abs/2507.03683)  
+Ankit Sonthalia, Arnas Uselis, Seong Joon Oh  
+**arXiv:2507.03683**, 2025
 
-Set up your working environment using
+---
 
-```
-conda create -n rankable
+## 🛠 Setup
+
+Create the environment and install dependencies:
+
+```bash
+conda create -n rankable python=3.10
+conda activate rankable
 pip install -e .
 ```
 
-For the minimal working example, run
+---
 
-```
+## 🚀 Minimal Working Example
+
+Run the evaluation pipeline with:
+
+```bash
 python scripts/eval.py -d -c configs/utkface.yaml
 ```
 
-More instructions on the way!
+More instructions and pre-computed embeddings coming soon!
+
+---
+
+## 📚 Citation
+
+If you use this work, please cite:
+
+```bibtex
+@article{sonthalia2025_2507.03683,
+  title={On the Rankability of Visual Embeddings},
+  author={Ankit Sonthalia and Arnas Uselis and Seong Joon Oh},
+  journal={arXiv preprint arXiv:2507.03683},
+  year={2025}
+}
+```
