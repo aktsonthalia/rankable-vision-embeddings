@@ -33,7 +33,7 @@ More instructions and pre-computed embeddings coming soon!
 If you use this work, please cite:
 
 ```bibtex
-@article{sonthalia2025rankabability,
+@article{sonthalia2025rankability,
   title={On the Rankability of Visual Embeddings},
   author={Ankit Sonthalia and Arnas Uselis and Seong Joon Oh},
   journal={arXiv preprint arXiv:2507.03683},
